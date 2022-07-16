@@ -3,7 +3,8 @@ import React from "react";
 
 // import Lecture5 from "./components/Lecture5";
 import "./App.css";
-import DeepLearnng from "./components/regression/DeepLearnng";
+import Classification from "./components/classification/Classification";
+// import DeepLearnng from "./components/regression/DeepLearnng";
 // import LoadTensorFlow from "./components/LoadTensorFlow";
 // import BostonExample2 from "./components/BostonExample2";
 // import TensorflowVis from "./components/TensorflowVis";
@@ -15,7 +16,8 @@ const App = () => {
       {/* <LoadTensorFlow /> */}
       {/* <BostonExample /> */}
       {/* <TensorflowVis /> */}
-      <DeepLearnng />
+      {/* <DeepLearnng /> */}
+      {/* <Classification /> */}
     </>
   );
 };

@@ -32,7 +32,7 @@ const TensorflowVis = () => {
 
       // 3. 데이터로 모델을 학습시킵니다.
 
-      let _history: tf.ModelFitArgs[] = [];
+      const _history: tf.ModelFitArgs[] = [];
       // const fitParam = { epochs: 10000 };
       const fitParam = {
         epochs: 100,
